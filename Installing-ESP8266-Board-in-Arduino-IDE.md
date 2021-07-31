@@ -21,4 +21,8 @@ To install the ESP8266 board in your Arduino IDE, follow these next instructions
 
 <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/07/Install-ESP8266-Board-add-on-in-Arduino-IDE-open-boards-manager.png?w=671&quality=100&strip=all&ssl=1"/>
 
-4.Search for ESP8266 and press install button for the “<b>ESP8266 by ESP8266 Community</b>“:
+4.Search for ESP8266 and press install button for the “<b>ESP8266 by ESP8266 Community</b>“: <br/>
+
+<img src="https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/07/Install-ESP8266-Board-add-on-in-Arduino-IDE-search-ESP8266.png?w=786&quality=100&strip=all&ssl=1"/>
+
+That’s it. It should be installed after a few seconds.

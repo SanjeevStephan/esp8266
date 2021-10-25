@@ -46,10 +46,10 @@ void setup() {
   pinMode(output4, OUTPUT);
   
   // Set outputs to LOW
-  digitalWrite(output7, LOW);
-  digitalWrite(output6, LOW);
-  digitalWrite(output5, LOW);
-  digitalWrite(output4, LOW);
+  digitalWrite(output7, HIGH);
+  digitalWrite(output6, HIGH);
+  digitalWrite(output5, HIGH);
+  digitalWrite(output4, HIGH);
 
   // Connect to Wi-Fi network with SSID and password
   Serial.print("Connecting to ");
@@ -108,9 +108,9 @@ void loop(){
               output6State = "on";
               digitalWrite(output6, HIGH);
             } else if (header.indexOf("GET /6/off") >= 0) {
-              Serial.println("GPIO 5 off");
+              Serial.println("GPIO 6 off");
               output6State = "off";
-              digitalWrite(output5, LOW);
+              digitalWrite(output6, LOW);
             } else if (header.indexOf("GET /5/on") >= 0) {
               Serial.println("GPIO 5 on");
               output5State = "on";

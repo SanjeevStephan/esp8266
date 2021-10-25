@@ -106,7 +106,7 @@ void loop(){
             } else if (header.indexOf("GET /6/on") >= 0) {
               Serial.println("GPIO 6 on");
               output6State = "on";
-              digitalWrite(output5, HIGH);
+              digitalWrite(output6, HIGH);
             } else if (header.indexOf("GET /6/off") >= 0) {
               Serial.println("GPIO 5 off");
               output6State = "off";
@@ -144,7 +144,7 @@ void loop(){
             client.println("<body><h1>ESP8266 Web Server</h1>");
 
              // Display current state, and ON/OFF buttons for GPIO 7  
-            client.println("<p>GPIO 7 - State " + output5State + "</p>");
+            client.println("<p>GPIO 7 - State " + output7State + "</p>");
             // If the output6State is off, it displays the ON button       
             if (output7State=="off") {
               client.println("<p><a href=\"/7/on\"><button class=\"button\">ON</button></a></p>");
@@ -154,7 +154,7 @@ void loop(){
 
 
              // Display current state, and ON/OFF buttons for GPIO 6  
-            client.println("<p>GPIO 6 - State " + output5State + "</p>");
+            client.println("<p>GPIO 6 - State " + output6State + "</p>");
             // If the output6State is off, it displays the ON button       
             if (output6State=="off") {
               client.println("<p><a href=\"/6/on\"><button class=\"button\">ON</button></a></p>");

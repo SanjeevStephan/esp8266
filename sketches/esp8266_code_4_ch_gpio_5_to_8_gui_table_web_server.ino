@@ -170,7 +170,7 @@ void loop(){
           if (output5State=="off") {
               client.println(" <td><a href=\"/5/on\"><button class=\"button\">OFF</button></a></td>");    
            } else {
-              client.println("<td><a href=\"/5/off\"><button class=\"button button2\">OFF</button></a></td>");
+              client.println("<td><a href=\"/5/off\"><button class=\"button button2\">ON</button></a></td>");
             }                    
           // Display current state, and ON/OFF buttons for GPIO 5  
           client.println("<td> Relay Ch 1</td>");

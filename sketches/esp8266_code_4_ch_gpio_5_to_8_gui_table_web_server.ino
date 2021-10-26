@@ -168,9 +168,9 @@ void loop(){
           client.println("<tr>");
            // If the output5State is off, it displays the ON button  
           if (output5State=="off") {
-              client.println(" <td><a href=\"/5/on\"><button class=\"button\">OFF</button></a></td>");    
+              client.println(" <td><a href=\"/5/on\"><button class=\"button button2\">OFF</button></a></td>");    
            } else {
-              client.println("<td><a href=\"/5/off\"><button class=\"button button2\">ON</button></a></td>");
+              client.println("<td><a href=\"/5/off\"><button class=\"button \">ON</button></a></td>");
             }                    
           // Display current state, and ON/OFF buttons for GPIO 5  
           client.println("<td> Relay Ch 1</td>");
@@ -184,9 +184,9 @@ void loop(){
           client.println("<tr>");
            // If the output5State is off, it displays the ON button  
           if (output6State=="off") {
-              client.println(" <td><a href=\"/6/on\"><button class=\"button\">OFF</button></a></td>");    
+              client.println(" <td><a href=\"/6/on\"><button class=\"button button2\">OFF</button></a></td>");    
            } else {
-              client.println("<td><a href=\"/6/off\"><button class=\"button button2\">ON</button></a></td>");
+              client.println("<td><a href=\"/6/off\"><button class=\"button \">ON</button></a></td>");
             }                    
           // Display current state, and ON/OFF buttons for GPIO 6  
           client.println("<td> Relay Ch 2</td>");
@@ -199,9 +199,9 @@ void loop(){
           client.println("<tr>");
            // If the output7State is off, it displays the ON button  
           if (output7State=="off") {
-              client.println(" <td><a href=\"/7/on\"><button class=\"button\">OFF</button></a></td>");    
+              client.println(" <td><a href=\"/7/on\"><button class=\"button button2\">OFF</button></a></td>");    
            } else {
-              client.println("<td><a href=\"/7/off\"><button class=\"button button2\">ON</button></a></td>");
+              client.println("<td><a href=\"/7/off\"><button class=\"button \">ON</button></a></td>");
             }                    
           // Display current state, and ON/OFF buttons for GPIO 7  
           client.println("<td> Relay Ch 3</td>");
@@ -214,9 +214,9 @@ void loop(){
           client.println("<tr>");
            // If the output8State is off, it displays the ON button  
           if (output8State=="off") {
-              client.println(" <td><a href=\"/8/on\"><button class=\"button\">OFF</button></a></td>");    
+              client.println(" <td><a href=\"/8/on\"><button class=\"button button2\">OFF</button></a></td>");    
            } else {
-              client.println("<td><a href=\"/8/off\"><button class=\"button button2\">ON</button></a></td>");
+              client.println("<td><a href=\"/8/off\"><button class=\"button \">ON</button></a></td>");
             }                    
           // Display current state, and ON/OFF buttons for GPIO 8  
           client.println("<td> Relay Ch 4</td>");

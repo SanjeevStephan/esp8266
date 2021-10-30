@@ -1,4 +1,5 @@
 * Alexa Controlled IoT Home Automation by Emulating a WeMo Device using NodeMCU
+* Node MC | <a href="https://www.electronicshub.org/wp-content/uploads/2021/02/NodeMCU-Pinout-Image.jpg">Diagram</a>
 * Links  
   <ul>
   <li><a href="https://iotdesignpro.com/projects/alexa-controlled-iot-home-automation-by-emulating-a-wemo-device-using-nodemcu">iotdesignpro.com</li>
